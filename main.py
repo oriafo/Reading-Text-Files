@@ -22,7 +22,7 @@ def count_words():
             dictionary[split] = dictionary[split] + 1
         else:
             dictionary[split] = 1
-    print(dictionary)
-    return {"as": 10, "would": 20}
+    print(dictionary)           #This line is used to see the result since the fuction is only returning the result.
+    return dictionary
 
 count_words()
